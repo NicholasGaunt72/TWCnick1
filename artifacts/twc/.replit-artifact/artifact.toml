@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "TWC - Together We Can"
+version = "1.0.0"
+id = "artifacts/twc"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19860
+
+[services.development]
+run = "pnpm --filter @workspace/twc run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/twc", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/twc/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19860"
+BASE_PATH = "/"

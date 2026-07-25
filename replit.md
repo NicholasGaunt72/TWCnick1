@@ -1,6 +1,6 @@
-# [Project name]
+# TWC — Together We Can Rehabilitation
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A full website for Together We Can Rehabilitation, a drug and alcohol rehab centre in Eendekuil, Western Cape, South Africa.
 
 ## Run & Operate
 
