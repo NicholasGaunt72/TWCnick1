@@ -51,8 +51,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-16 pt-8 border-t border-primary-foreground/20 text-sm text-primary-foreground/80 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p>© {new Date().getFullYear()} Together We Can Rehabilitation. All rights reserved.</p>
-          <p className="text-primary-foreground/60">Faith-based, community-led healing.</p>
+          <p>© {new Date().getFullYear()} TWC. All rights reserved.</p>
         </div>
       </div>
     </footer>
