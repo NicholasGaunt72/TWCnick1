@@ -1,4 +1,4 @@
-﻿# Together We Can (TWC) Rehabilitation Centre Website
+# Together We Can (TWC) Rehabilitation Centre Website
 
 Official modern website for **Together We Can (TWC) Rehabilitation**, a drug and alcohol rehabilitation centre situated in Eendekuil, Western Cape, South Africa.
 
