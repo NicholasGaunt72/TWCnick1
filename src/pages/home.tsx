@@ -8,14 +8,14 @@ export default function Home() {
       {/* Hero */}
       <section className="relative h-[85dvh] min-h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src={assetUrl('images/home1.png')} alt="TWC Farm" className="w-full h-full object-cover" />
+          <img src={assetUrl('images/home1.png')} alt="TWC Eendekuil" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/60" />
         </div>
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto space-y-6 mt-16">
           <span className="inline-block glass-dark px-6 py-2 rounded-full font-medium tracking-widest text-sm uppercase text-secondary">Eendekuil, Western Cape</span>
           <h1 className="font-serif text-5xl md:text-7xl leading-tight drop-shadow-lg">A Place of Safety and Second Chances.</h1>
           <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto font-light drop-shadow-md">
-            Genuine healing set on a farm in the open Western Cape countryside. Faith-based, community-led recovery from substance abuse.
+            Genuine healing set on a farm in the open Western Cape countryside. 
           </p>
           <div className="pt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="/contact" className="glass bg-secondary/80 text-white hover:bg-secondary/90 px-8 py-4 rounded-full font-medium transition-all w-full sm:w-auto text-center shadow-lg border-white/20">
