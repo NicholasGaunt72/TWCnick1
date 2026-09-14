@@ -64,7 +64,7 @@ export default function Home() {
                 <h2 className="font-serif text-4xl text-foreground leading-tight mt-4">Rooted in Faith, Driven by Community</h2>
               </div>
               <p className="text-foreground/80 leading-relaxed text-lg">
-                We employ a holistic, faith-based approach that addresses the physical, emotional, and spiritual aspects of addiction. Our structured environment fosters accountability while surrounding residents with compassion.
+                Our structured environment fosters accountability while surrounding residents with compassion.
               </p>
               <ul className="space-y-6 pt-4">
                 {[
@@ -100,7 +100,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { title: "12 Step Program", desc: "Our Celebrate Recovery framework focuses on spiritual and emotional growth in a safe group setting.", icon: 1 },
+              { title: "12 Step Program", desc: "Our Celebrate Recovery framework focuses on emotional growth in a safe group setting.", icon: 1 },
               { title: "Therapon Thinking Errors", desc: "Helping residents identify, understand, and rewire destructive thought patterns that lead to relapse.", icon: 2 },
               { title: "Relapse Prevention", desc: "Equipping individuals with practical tools to manage triggers and sustain long-term sobriety.", icon: 3 }
             ].map((prog, i) => (
