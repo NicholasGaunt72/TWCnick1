@@ -15,7 +15,7 @@ export default function Home() {
           <span className="inline-block glass-dark px-6 py-2 rounded-full font-medium tracking-widest text-sm uppercase text-secondary">Eendekuil, Western Cape</span>
           <h1 className="font-serif text-5xl md:text-7xl leading-tight drop-shadow-lg">A Place of Safety and Second Chances.</h1>
           <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto font-light drop-shadow-md">
-            Genuine healing set on a farm in the open Western Cape countryside. Faith-based, community-led recovery from substance abuse.
+            Genuine healing set on a farm in the open Western Cape countryside. Community-led recovery from substance abuse.
           </p>
           <div className="pt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="/contact" className="glass bg-secondary/80 text-white hover:bg-secondary/90 px-8 py-4 rounded-full font-medium transition-all w-full sm:w-auto text-center shadow-lg border-white/20">
